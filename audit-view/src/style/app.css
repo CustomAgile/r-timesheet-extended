@@ -1,0 +1,57 @@
+.app {
+}
+.tsinfolink {
+    position:absolute;
+    right:0px;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    background: #C0C0C0;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.x-panel .x-tab-bar-strip {
+  display: none;
+  }
+  
+.x-tab-bar-default-top {
+  padding: 0px;
+}
+
+.x-panel .x-tab-bar {
+  background: #f6f6f6 !important; 
+  }
+  
+.x-panel .x-tab-bar .x-tab-bar-body {
+    margin-top: 2px !important;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.x-panel .x-tab-bar .x-tab {
+    background: white !important; 
+}
+    
+.x-panel .x-tab-bar .x-tab.x-tab-active {
+    background: #35b2e4 !important;
+    border-color: #35b2e4 !important; 
+}
+      
+.x-panel .x-tab-bar .x-tab.x-tab-active .x-tab-inner {
+    color: white;
+}
+
+.x-panel .x-tab-bar .x-tab-inner {
+    color: #35b2e4;
+    width: 100%;
+}
+    
+.x-panel .x-tabpanel-child {
+  padding: 0;
+}

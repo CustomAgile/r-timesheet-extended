@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timesheet Administration</title>
+    <!--  (c) 2015 Rally Software Development Corp.  All Rights Reserved. -->
+    <!--  Build Date: Thu Feb 25 2016 15:12:31 GMT-0800 (PST) -->
+    
+    <script type="text/javascript">
+        var APP_BUILD_DATE = "Thu Feb 25 2016 15:12:31 GMT-0800 (PST)";
+        var CHECKSUM = [%= checksum %];
+    </script>
+    
+    <script type="text/javascript" src="/apps/2.0/sdk.js"></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function() {
+            
+            
+               Rally.launchApp('TSAdmin', {
+                   name: 'Timesheet Administration'
+               });
+        });
+    </script>
+    
+    <style type="text/css">
+
+td.ts-total-cell {
+    background-color: #eee !important;
+}
+
+.x-grid-row-summary {
+    background-color: #eee;
+}
+
+.x-grid-row-alt .x-grid-td {
+    background-color: #fff;
+}
+
+.x-border-layout-ct {
+    background-color: #ffffff;
+}
+
+td.ts-weekend-cell {
+    background-color: #B0E0E6 !important;
+}
+
+span.red {
+    color: red;
+}
+.app {
+}
+.tsinfolink {
+    position:absolute;
+    right:0px;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    background: #C0C0C0;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+    </style>
+
+</head>
+<body></body>
+</html>

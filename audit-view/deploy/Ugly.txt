@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TS Time Sheet Audit</title>
+    <!--  (c) 2015 Rally Software Development Corp.  All Rights Reserved. -->
+    <!--  Build Date: Thu Mar 03 2016 20:49:07 GMT-0800 (PST) -->
+    
+    <script type="text/javascript">
+        var APP_BUILD_DATE = "Thu Mar 03 2016 20:49:07 GMT-0800 (PST)";
+        var CHECKSUM = [%= checksum %];
+    </script>
+    
+    <script type="text/javascript" src="/apps/2.0/sdk.js"></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function() {
+            
+            
+               Rally.launchApp('TSTimeSheetAudit', {
+                   name: 'TS Time Sheet Audit'
+               });
+        });
+    </script>
+    
+    <style type="text/css">
+
+td.ts-total-cell {
+    background-color: #eee !important;
+}
+
+.x-grid-row-summary {
+    background-color: #eee;
+}
+
+.x-grid-row-alt .x-grid-td {
+    background-color: #fff;
+}
+
+.x-border-layout-ct {
+    background-color: #ffffff;
+}
+
+td.ts-weekend-cell {
+    background-color: #B0E0E6 !important;
+}
+
+span.red {
+    color: red;
+}
+.app {
+}
+.tsinfolink {
+    position:absolute;
+    right:0px;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    background: #C0C0C0;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.x-panel .x-tab-bar-strip {
+  display: none;
+  }
+  
+.x-tab-bar-default-top {
+  padding: 0px;
+}
+
+.x-panel .x-tab-bar {
+  background: #f6f6f6 !important; 
+  }
+  
+.x-panel .x-tab-bar .x-tab-bar-body {
+    margin-top: 2px !important;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.x-panel .x-tab-bar .x-tab {
+    background: white !important; 
+}
+    
+.x-panel .x-tab-bar .x-tab.x-tab-active {
+    background: #35b2e4 !important;
+    border-color: #35b2e4 !important; 
+}
+      
+.x-panel .x-tab-bar .x-tab.x-tab-active .x-tab-inner {
+    color: white;
+}
+
+.x-panel .x-tab-bar .x-tab-inner {
+    color: #35b2e4;
+    width: 100%;
+}
+    
+.x-panel .x-tabpanel-child {
+  padding: 0;
+}
+    </style>
+
+</head>
+<body></body>
+</html>
